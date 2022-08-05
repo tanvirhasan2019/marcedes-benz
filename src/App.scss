@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+//vehicles title
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+html {
+    --bg-primary : #efebe9;
+    --color-blue : #1976d2;
+}
+.main-div{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: var(--bg-primary);
+    min-height: 100vh;
+}
