@@ -86,7 +86,11 @@ export default function Appheader() {
         <Typography sx={{ mr: { xs: 1, md: 4, '&:hover': { cursor: 'pointer', color: 'rgb(51, 51, 164)' } } }} variant='h6' gutterBottom>Sports</Typography>
       </MenuItem>
       <MenuItem>
-        <Typography sx={{ mr: { xs: 1, md: 4, '&:hover': { cursor: 'pointer', color: 'rgb(51, 51, 164)' } } }} variant='h6' gutterBottom>Events</Typography>
+        <Typography sx={
+            { mr: { xs: 1, md: 4, 
+              '&:hover': { cursor: 'pointer', color: 'rgb(51, 51, 164)' } } }
+              && currentUrl.includes("meuseum") && { color: 'red' }
+          } variant='h6' gutterBottom>Meuseum</Typography>
       </MenuItem>
       <MenuItem>
         <Typography sx={{ mr: { xs: 1, md: 4, '&:hover': { cursor: 'pointer', color: 'rgb(51, 51, 164)' } } }} variant='h6' gutterBottom>Life Style</Typography>
@@ -125,7 +129,11 @@ export default function Appheader() {
               }}
               variant='h6' gutterBottom>Vehicles</Typography>
             <Typography sx={{mr : {xs : 1, md : 4}, '&:hover': {cursor : 'pointer', color : 'rgb(51, 51, 164)' }}} variant='h6' gutterBottom>Sports</Typography>
-            <Typography sx={{mr : {xs : 1, md : 4, '&:hover': {cursor : 'pointer', color : 'rgb(51, 51, 164)'} }}} variant='h6' gutterBottom>Events</Typography>
+            <Typography onClick={() => navigate('/marcedes/museum')}
+              sx={currentUrl.includes("museum") ? { color: '#1976d2', mr : {xs : 1, md : 4} } : {
+                mr: {xs: 1, md: 4}, 
+                '&:hover': { cursor: 'pointer', color: 'rgb(51, 51, 164)' }
+              }} variant='h6' gutterBottom>Museum</Typography>
             <Typography sx={{mr : {xs : 1, md : 4, '&:hover': {cursor : 'pointer', color : 'rgb(51, 51, 164)'} }}} variant='h6' gutterBottom>Life Style</Typography>
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
