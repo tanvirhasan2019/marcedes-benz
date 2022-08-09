@@ -6,7 +6,7 @@ import LandingPage from "./pages/landingPage/LandingPage"
 import News from "./pages/News/News"
 import Videos from "./pages/Videos/Videos"
 import Vehicles from "./pages/Vehicles/Vehicles"
-
+import Meuseum from "./pages/Meuseum/Meuseum"
 function App() {
   return (
     <div className="main-div">
@@ -17,6 +17,7 @@ function App() {
           <Route exact path='/marcedes/news' element={<News />}></Route>
           <Route exact path='/marcedes/videos' element={<Videos />}></Route>
           <Route exact path='/marcedes/vehicles' element={<Vehicles />}></Route>
+          <Route exact path='/marcedes/museum' element={<Meuseum />}></Route>
         </Routes>
       </Router>
       <Footer />
