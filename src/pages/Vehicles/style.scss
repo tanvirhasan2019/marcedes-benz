@@ -1,10 +1,18 @@
 .all-vehicles{
     text-align: center;
     font-size: 2rem;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 .category-text{
     color: rgba(14, 12, 12, 0.833) !important;
     font-size: 1rem !important;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.car-brand-name{
+    font-family: 'Great Vibes', cursive !important;
+    font-family: 'Roboto', sans-serif !important;
 }
 .MuiTypography-h6:hover, .category-text :hover {
     color : rgba(84, 84, 237, 0.669) !important;
@@ -17,16 +25,20 @@
     min-height: 250px !important;
 }
 .vehicle-card-list :hover{
-  scale: 1.2 !important;
   cursor: pointer !important;
 }
 
 .vehicle-title-text{
-
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 1.5rem;
 }
 .vehicle-price-text{
-
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.8;
 }
 .vehicle-card-image{
     width: 100%  !important;
+    aspect-ratio: 16/9 !important;
 }
+

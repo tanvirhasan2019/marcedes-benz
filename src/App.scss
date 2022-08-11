@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 //vehicles title
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300&display=swap');
 
 html {
     --bg-primary : #efebe9;
     --color-blue : #1976d2;
+    scroll-behavior: smooth;
 }
 .main-div{
     margin-left: 20px;
