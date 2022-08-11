@@ -1,5 +1,6 @@
 export const suvs = [
     {
+        id : "GLA-250-SUV",
         title: "GLA 250 SUV",
         subtitle : "Engine 2.0L inline-4 turbo",
         price: 36400,
@@ -55,6 +56,7 @@ export const suvs = [
         ]
     },
     {
+        id: "GLB-250-SUV",
         title: "GLB 250 SUV",
         subtitle : "Engine 2.0L inline-4 turbo",
         price: 38600,
@@ -110,6 +112,7 @@ export const suvs = [
         ]
     },
     {
+        id: "GLC-300-SUV",
         title: "GLC 300 SUV",
         subtitle : "Engine 2.0L inline-4 turbo",
         price: 43850,
@@ -165,6 +168,7 @@ export const suvs = [
         ]
     },
     {
+        id: "GLC-300-4MATIC-Coupe",
         title: "GLC 300 4MATIC Coupe",
         subtitle : "Engine 2.0L inline-4 turbo",
         price: 52500,
@@ -220,6 +224,7 @@ export const suvs = [
         ]
     },
     {
+        id : "GLE-350-SUV",
         title: "GLE 350 SUV",
         subtitle : "Engine 2.0L inline-4 turbo",
         price: 56150,
@@ -275,6 +280,7 @@ export const suvs = [
         ]
     },
     {
+        id: "AMG-GLE-53-Coupe",
         title: "AMG GLE 53 Coupe",
         subtitle : "Engine 3.0L inline-6 turbo with mild hybrid drive",
         price: 78450,
@@ -330,6 +336,7 @@ export const suvs = [
         ]
     },
     {
+        id: "GLS-450-SUV",
         title: "GLS 450 SUV",
         subtitle : "Engine 3.0L inline-6 turbo with mild hybrid drive",
         price: 77850,
@@ -385,6 +392,7 @@ export const suvs = [
         ]
     },
     {
+        id: "2022-Mercedes-Maybach-GLS-600-SUV",
         title: "2022 Mercedes-Maybach GLS 600 SUV",
         subtitle : "Engine 2.0L inline-4 turbo",
         price: 43850,
@@ -440,6 +448,7 @@ export const suvs = [
         ]
     },
     {
+        id: "G-550-SUV",
         title: "G 550 SUV",
         subtitle : "Engine 4.0L V8 biturbo",
         price: 131750,

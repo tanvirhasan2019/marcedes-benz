@@ -7,7 +7,7 @@ import { sliders } from '../../constants/Slider';
 export const Hero = () => {
     return (
         <div>
-            <Carousel autoPlay={true} interval={2000} infiniteLoop={true}>
+            <Carousel stopOnHover={false} autoPlay={true} interval={2000} infiniteLoop={true}>
                 {sliders?.map((item, index) =>
                     <div key={index}>
                         <img src={item?.imgSrc} alt="caption of heading" />

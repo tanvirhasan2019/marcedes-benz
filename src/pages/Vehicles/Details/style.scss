@@ -1,0 +1,50 @@
+.desc-title {
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+.desc-subtitle {
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+.desc-main-img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  scale: 2;
+  margin-top: -30px;
+}
+
+.desc-color-img {
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+}
+
+.desc-color-img-active {
+  border: 2px solid rgb(24, 26, 164);
+}
+
+.desc-color-img:hover {
+  cursor: pointer !important;
+}
+
+.color-title {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+
+.selected-color-name {
+  font-size: 1rem;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.desc-icon {
+  width: 50px;
+  height: 50px;
+}

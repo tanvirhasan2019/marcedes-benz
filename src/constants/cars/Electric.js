@@ -1,5 +1,6 @@
 export const electric = [
     {
+        id : "EQS-Sedan",
         title: "EQS Sedan",
         subtitle : "Engine Handcrafted 4.0L AMG V8 biturbo",
         price: 13070, 
