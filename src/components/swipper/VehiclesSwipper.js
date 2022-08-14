@@ -10,8 +10,10 @@ import "./style.scss";
 
 // import required modules
 import { Autoplay, Pagination } from "swiper";
+import { useNavigate } from "react-router-dom";
 
 export default function VehiclesSwipper({ cars }) {
+    const navigate = useNavigate()
     return (
         <>
             <Swiper
@@ -27,7 +29,7 @@ export default function VehiclesSwipper({ cars }) {
                 modules={[Autoplay, Pagination]}
                 className="mySwiper"
             > {cars?.map((item, index) =>
-                <SwiperSlide key={index} className="slider-box">
+                <SwiperSlide onClick={()=>navigate(`/marcedes/vehicles/${item?.id}`)} key={index} className="slider-box">
                     <p className="swipper-title-text">{item.title}</p>
                     <img className="swipper-image" src={item?.colors[0].image} alt={item?.title} />
                 </SwiperSlide>

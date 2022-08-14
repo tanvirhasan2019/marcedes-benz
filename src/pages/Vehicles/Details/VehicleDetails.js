@@ -14,7 +14,10 @@ export default function VehicleDetails() {
   const [selectedImage, setSelectedImage] = useState('')
   const [selectedColorIndex, setSelectedColorIndex] = useState(0)
   const [imageLoading, imageSetLoading] = useState(false)
+<<<<<<< HEAD
+=======
   const [loading, setLoading] = useState(true)
+>>>>>>> 4b0f4764bd07f5ca6aedf98b33a6809d5d84cb20
 
   const { id } = useParams()
 
@@ -23,7 +26,10 @@ export default function VehicleDetails() {
     let result = allVehicle.filter(item => item.id === id)
     setVehicle(result[0])
     setSelectedImage(result[0]?.colors[0]?.image)
+<<<<<<< HEAD
+=======
     setLoading(false)
+>>>>>>> 4b0f4764bd07f5ca6aedf98b33a6809d5d84cb20
   }, [id])
 
   useEffect(() => {
@@ -31,9 +37,14 @@ export default function VehicleDetails() {
   }, [selectedImage])
 
   return (
+<<<<<<< HEAD
+    <Box sx={{ minHeight: '400px', p: 2, backgroundColor: '#fff' }}>
+      {imageLoading && <SimpleBackdrop />}
+=======
     <Box sx={{ minHeight: '400px', p: 1, backgroundColor: '#fff' }}>
       {imageLoading && <SimpleBackdrop />}
       {loading && <SimpleBackdrop />}
+>>>>>>> 4b0f4764bd07f5ca6aedf98b33a6809d5d84cb20
       <p className='desc-title'>{vehicle?.title}</p>
       <p className='desc-subtitle'>{vehicle?.subtitle}</p>
       <Divider sx={{ width: '100px' }} />
@@ -54,7 +65,11 @@ export default function VehicleDetails() {
       </Box>
 
       <p className='color-title'>Color</p>
+<<<<<<< HEAD
+      <p className='selected-color-name'>Color Name</p>
+=======
       <p className='selected-color-name'>{!loading && vehicle?.colors[selectedColorIndex]?.name}</p>
+>>>>>>> 4b0f4764bd07f5ca6aedf98b33a6809d5d84cb20
       <Grid
         container
         direction="row"
@@ -126,7 +141,11 @@ export default function VehicleDetails() {
               alignItems="center">
               <Box>
                 <Typography>
+<<<<<<< HEAD
+                  <img className='desc-icon' src="https://cdn-icons.flaticon.com/png/512/2578/premium/2578604.png?token=exp=1660125665~hmac=2ca354a17eb8cdd4280e7de28e293bf5" alt="torque" />
+=======
                   <img className='desc-icon' src="http://cdn.onlinewebfonts.com/svg/img_262978.png" alt="torque" />
+>>>>>>> 4b0f4764bd07f5ca6aedf98b33a6809d5d84cb20
                 </Typography>
                 <Typography>Torque</Typography>
               </Box>
