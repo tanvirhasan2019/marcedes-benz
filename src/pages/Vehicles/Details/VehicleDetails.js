@@ -14,10 +14,7 @@ export default function VehicleDetails() {
   const [selectedImage, setSelectedImage] = useState('')
   const [selectedColorIndex, setSelectedColorIndex] = useState(0)
   const [imageLoading, imageSetLoading] = useState(false)
-<<<<<<< HEAD
-=======
   const [loading, setLoading] = useState(true)
->>>>>>> 4b0f4764bd07f5ca6aedf98b33a6809d5d84cb20
 
   const { id } = useParams()
 
@@ -26,10 +23,7 @@ export default function VehicleDetails() {
     let result = allVehicle.filter(item => item.id === id)
     setVehicle(result[0])
     setSelectedImage(result[0]?.colors[0]?.image)
-<<<<<<< HEAD
-=======
     setLoading(false)
->>>>>>> 4b0f4764bd07f5ca6aedf98b33a6809d5d84cb20
   }, [id])
 
   useEffect(() => {
@@ -37,125 +31,115 @@ export default function VehicleDetails() {
   }, [selectedImage])
 
   return (
-<<<<<<< HEAD
     <Box sx={{ minHeight: '400px', p: 2, backgroundColor: '#fff' }}>
       {imageLoading && <SimpleBackdrop />}
-=======
-    <Box sx={{ minHeight: '400px', p: 1, backgroundColor: '#fff' }}>
-      {imageLoading && <SimpleBackdrop />}
-      {loading && <SimpleBackdrop />}
->>>>>>> 4b0f4764bd07f5ca6aedf98b33a6809d5d84cb20
-      <p className='desc-title'>{vehicle?.title}</p>
-      <p className='desc-subtitle'>{vehicle?.subtitle}</p>
-      <Divider sx={{ width: '100px' }} />
-      <p className='desc-subtitle'>Starting at {vehicle?.price}$</p>
-      <Box
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-        sx={{ p: 1 }}
-      >
-        <Box sx={{ maxWidth: '700px', maxHeight: '400px' }}>
-          <img
-            className="desc-main-img"
-            onLoad={() => imageSetLoading(false)}
-            src={selectedImage}
-            alt="car" />
+      <Box sx={{ minHeight: '400px', p: 1, backgroundColor: '#fff' }}>
+        {imageLoading && <SimpleBackdrop />}
+        {loading && <SimpleBackdrop />}
+        <p className='desc-title'>{vehicle?.title}</p>
+        <p className='desc-subtitle'>{vehicle?.subtitle}</p>
+        <Divider sx={{ width: '100px' }} />
+        <p className='desc-subtitle'>Starting at {vehicle?.price}$</p>
+        <Box
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          sx={{ p: 1 }}
+        >
+          <Box sx={{ maxWidth: '700px', maxHeight: '400px' }}>
+            <img
+              className="desc-main-img"
+              onLoad={() => imageSetLoading(false)}
+              src={selectedImage}
+              alt="car" />
+          </Box>
         </Box>
-      </Box>
 
-      <p className='color-title'>Color</p>
-<<<<<<< HEAD
-      <p className='selected-color-name'>Color Name</p>
-=======
-      <p className='selected-color-name'>{!loading && vehicle?.colors[selectedColorIndex]?.name}</p>
->>>>>>> 4b0f4764bd07f5ca6aedf98b33a6809d5d84cb20
-      <Grid
-        container
-        direction="row"
-        justifyContent="flex-start"
-        alignItems="center"
-        spacing={1}
-        sx={{ pb: 1 }}
-      >
-        {vehicle?.colors?.map((item, index) =>
-          <Grid key={index} item xs={4} md={1}>
-            <img key={index} className={index === selectedColorIndex ? "desc-color-img desc-color-img-active" : "desc-color-img"}
-              src={item?.color}
-              alt="color"
-              onClick={() => {
-                setSelectedImage(vehicle?.colors[index].image)
-                setSelectedColorIndex(index)
-              }
-              }
-            />
-          </Grid>
-        )}
-      </Grid>
-
-      <Box sx={{ mt: 2, pb: 4 }}>
-        <Divider sx={{ mb: 1 }} />
+        <p className='color-title'>Color</p>
+        <p className='selected-color-name'>{!loading && vehicle?.colors[selectedColorIndex]?.name}</p>
         <Grid
           container
           direction="row"
-          justifyContent="center"
+          justifyContent="flex-start"
           alignItems="center"
+          spacing={1}
+          sx={{ pb: 1 }}
         >
-          <Grid md={4} xs={12} item>
-            <Box sx={{ p: 3, mt: 2, borderRight: { xs: 'none', md: '1px solid #00000040' } }} display={"flex"} direction="row"
-              justifyContent="space-between"
-              alignItems="center">
-              <Box>
-                <Typography>
-                  <img className='desc-icon' src="https://cdn-icons-png.flaticon.com/512/3564/3564796.png" alt="acceleration" />
-                </Typography>
-                <Typography>Acceleration</Typography>
-              </Box>
-              <Box>
-                <Typography sx={{ fontWeight: '600', opacity: '0.8' }} gutterBottom variant='body1'>{vehicle?.acceleration}</Typography>
-                <Typography sx={{ fontWeight: '600', opacity: '0.8' }} gutterBottom variant='body1'>Sec**</Typography>
-              </Box>
-            </Box>
-          </Grid>
-
-          <Grid md={4} xs={12} item>
-            <Box sx={{ p: 3, mt: 2, borderRight: { xs: 'none', md: '1px solid #00000040' } }} display={"flex"} direction="row"
-              justifyContent="space-between"
-              alignItems="center">
-              <Box>
-                <Typography>
-                  <img className='desc-icon' src="https://cdn-icons-png.flaticon.com/512/99/99744.png" alt="power" />
-                </Typography>
-                <Typography>Power</Typography>
-              </Box>
-              <Box>
-                <Typography sx={{ fontWeight: '600', opacity: '0.8' }} gutterBottom variant='body1'>{vehicle?.power}</Typography>
-                <Typography sx={{ fontWeight: '600', opacity: '0.8' }} gutterBottom variant='body1'>hp</Typography>
-              </Box>
-            </Box>
-          </Grid>
-
-          <Grid md={4} xs={12} item>
-            <Box sx={{ p: 3, mt: 2, }} display={"flex"} direction="row"
-              justifyContent="space-between"
-              alignItems="center">
-              <Box>
-                <Typography>
-<<<<<<< HEAD
-                  <img className='desc-icon' src="https://cdn-icons.flaticon.com/png/512/2578/premium/2578604.png?token=exp=1660125665~hmac=2ca354a17eb8cdd4280e7de28e293bf5" alt="torque" />
-=======
-                  <img className='desc-icon' src="http://cdn.onlinewebfonts.com/svg/img_262978.png" alt="torque" />
->>>>>>> 4b0f4764bd07f5ca6aedf98b33a6809d5d84cb20
-                </Typography>
-                <Typography>Torque</Typography>
-              </Box>
-              <Box>
-                <Typography sx={{ fontWeight: '600', opacity: '0.8' }} gutterBottom variant='body1'>{vehicle?.torque}</Typography>
-                <Typography sx={{ fontWeight: '600', opacity: '0.8' }} gutterBottom variant='body1'>lb-ft</Typography>
-              </Box>
-            </Box>
-          </Grid>
+          {vehicle?.colors?.map((item, index) =>
+            <Grid key={index} item xs={4} md={1}>
+              <img key={index} className={index === selectedColorIndex ? "desc-color-img desc-color-img-active" : "desc-color-img"}
+                src={item?.color}
+                alt="color"
+                onClick={() => {
+                  setSelectedImage(vehicle?.colors[index].image)
+                  setSelectedColorIndex(index)
+                }
+                }
+              />
+            </Grid>
+          )}
         </Grid>
+
+        <Box sx={{ mt: 2, pb: 4 }}>
+          <Divider sx={{ mb: 1 }} />
+          <Grid
+            container
+            direction="row"
+            justifyContent="center"
+            alignItems="center"
+          >
+            <Grid md={4} xs={12} item>
+              <Box sx={{ p: 3, mt: 2, borderRight: { xs: 'none', md: '1px solid #00000040' } }} display={"flex"} direction="row"
+                justifyContent="space-between"
+                alignItems="center">
+                <Box>
+                  <Typography>
+                    <img className='desc-icon' src="https://cdn-icons-png.flaticon.com/512/3564/3564796.png" alt="acceleration" />
+                  </Typography>
+                  <Typography>Acceleration</Typography>
+                </Box>
+                <Box>
+                  <Typography sx={{ fontWeight: '600', opacity: '0.8' }} gutterBottom variant='body1'>{vehicle?.acceleration}</Typography>
+                  <Typography sx={{ fontWeight: '600', opacity: '0.8' }} gutterBottom variant='body1'>Sec**</Typography>
+                </Box>
+              </Box>
+            </Grid>
+
+            <Grid md={4} xs={12} item>
+              <Box sx={{ p: 3, mt: 2, borderRight: { xs: 'none', md: '1px solid #00000040' } }} display={"flex"} direction="row"
+                justifyContent="space-between"
+                alignItems="center">
+                <Box>
+                  <Typography>
+                    <img className='desc-icon' src="https://cdn-icons-png.flaticon.com/512/99/99744.png" alt="power" />
+                  </Typography>
+                  <Typography>Power</Typography>
+                </Box>
+                <Box>
+                  <Typography sx={{ fontWeight: '600', opacity: '0.8' }} gutterBottom variant='body1'>{vehicle?.power}</Typography>
+                  <Typography sx={{ fontWeight: '600', opacity: '0.8' }} gutterBottom variant='body1'>hp</Typography>
+                </Box>
+              </Box>
+            </Grid>
+
+            <Grid md={4} xs={12} item>
+              <Box sx={{ p: 3, mt: 2, }} display={"flex"} direction="row"
+                justifyContent="space-between"
+                alignItems="center">
+                <Box>
+                  <Typography>
+                    <img className='desc-icon' src="http://cdn.onlinewebfonts.com/svg/img_262978.png" alt="torque" />
+                  </Typography>
+                  <Typography>Torque</Typography>
+                </Box>
+                <Box>
+                  <Typography sx={{ fontWeight: '600', opacity: '0.8' }} gutterBottom variant='body1'>{vehicle?.torque}</Typography>
+                  <Typography sx={{ fontWeight: '600', opacity: '0.8' }} gutterBottom variant='body1'>lb-ft</Typography>
+                </Box>
+              </Box>
+            </Grid>
+          </Grid>
+        </Box>
       </Box>
     </Box>
   )

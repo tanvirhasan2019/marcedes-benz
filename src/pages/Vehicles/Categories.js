@@ -22,7 +22,7 @@ export default function Categories() {
             </Grid>
             <Grid item md={1} xs={4}>
                 <Link href="#sedans" underline="none">
-                    <Typography variant='h6' className="category-text" sx={{ m: 1 }}>Sedans & Wagons</Typography>
+                    <Typography variant='h6' className="category-text" sx={{ m: 1 }}>Sedans</Typography>
                 </Link>
             </Grid>
             <Grid item md={1} xs={4}>
