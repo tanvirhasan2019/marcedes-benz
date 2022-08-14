@@ -6,6 +6,9 @@ import LandingPage from "./pages/landingPage/LandingPage"
 import News from "./pages/News/News"
 import Videos from "./pages/Videos/Videos"
 import Vehicles from "./pages/Vehicles/Vehicles"
+import LifeStyle from "./pages/LifeStyle/LifeStyle"
+import VehicleDetails from "./pages/Vehicles/Details/VehicleDetails"
+import Sport from "./pages/sports/Sport"
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
           <Route exact path='/marcedes/news' element={<News />}></Route>
           <Route exact path='/marcedes/videos' element={<Videos />}></Route>
           <Route exact path='/marcedes/vehicles' element={<Vehicles />}></Route>
+          <Route exact path='/marcedes/vehicles/:id' element={<VehicleDetails />}></Route>
+          <Route exact path='/marcedes/life-style' element={<LifeStyle />}></Route>
+          <Route exact path='/marcedes/sports' element={<Sport />}></Route>
         </Routes>
       </Router>
       <Footer />

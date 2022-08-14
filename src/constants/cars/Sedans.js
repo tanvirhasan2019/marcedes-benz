@@ -1,5 +1,6 @@
 export const sedans = [
     {
+        id : "A-220-Sedan",
         title: "A 220 Sedan",
         subtitle : "Engine 2.0L inline-4 turbo",
         price: 33950,
@@ -55,6 +56,7 @@ export const sedans = [
         ]
     },
     {
+        id : "C-300-Sedan",
         title: "C 300 Sedan",
         subtitle : "Engine 2.0L Inline-4 turbo with mild hybrid drive",
         price: 43550,
@@ -105,6 +107,7 @@ export const sedans = [
         ]
     },
     {
+        id : "E-350-Sedan",
         title: "E 350 Sedan",
         subtitle : "Engine 2.0L inline-4 turbo",
         price: 54950,
@@ -160,6 +163,7 @@ export const sedans = [
         ]
     },
     {
+        id : "EQS-450+Sedan",
         title: "EQS 450+ Sedan",
         subtitle : "Engine 2.0L inline-4 turbo",
         price: 120300,
@@ -210,6 +214,7 @@ export const sedans = [
         ]
     },
     {
+        id : "S-500-4MATIC-Sedan",
         title: "S 500 4MATIC Sedan",
         subtitle : "Engine 3.0L inline-6 turbo engine with mild hybrid drive and electric auxiliary compressor",
         price: 111100,
@@ -260,6 +265,7 @@ export const sedans = [
         ]
     },
     {
+        id : "Mercedes-Maybach-S-580-4MATIC",
         title: "Mercedes-Maybach S 580 4MATIC",
         subtitle : "Engine 2.0L inline-4 turbo",
         price: 120300,
@@ -315,6 +321,7 @@ export const sedans = [
         ]
     },
     {
+        id : "A-220-Sedan",
         title: "A 220 Sedan",
         subtitle : "Engine 2.0L inline-4 turbo",
         price: 120300,

@@ -124,9 +124,19 @@ export default function Appheader() {
                 '&:hover': { cursor: 'pointer', color: 'rgb(51, 51, 164)' }
               }}
               variant='h6' gutterBottom>Vehicles</Typography>
-            <Typography sx={{mr : {xs : 1, md : 4}, '&:hover': {cursor : 'pointer', color : 'rgb(51, 51, 164)' }}} variant='h6' gutterBottom>Sports</Typography>
+              
+            <Typography onClick={() => navigate('/marcedes/sports')}
+              sx={currentUrl.includes("sports") ? { color: '#1976d2', mr : {xs : 1, md : 4} } : {
+                mr: {xs: 1, md: 4}, 
+                '&:hover': { cursor: 'pointer', color: 'rgb(51, 51, 164)' }
+              }} variant='h6' gutterBottom>Sports</Typography>
+
             <Typography sx={{mr : {xs : 1, md : 4, '&:hover': {cursor : 'pointer', color : 'rgb(51, 51, 164)'} }}} variant='h6' gutterBottom>Events</Typography>
-            <Typography sx={{mr : {xs : 1, md : 4, '&:hover': {cursor : 'pointer', color : 'rgb(51, 51, 164)'} }}} variant='h6' gutterBottom>Life Style</Typography>
+            <Typography onClick={() => navigate('/marcedes/life-style')}
+              sx={currentUrl.includes("life-style") ? { color: '#1976d2', mr : {xs : 1, md : 4} } : {
+                mr: {xs: 1, md: 4}, 
+                '&:hover': { cursor: 'pointer', color: 'rgb(51, 51, 164)' }
+              }} variant='h6' gutterBottom>Life Style</Typography>
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
             <IconButton
