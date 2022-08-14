@@ -78,27 +78,31 @@ export default function Appheader() {
             '&:hover': { cursor: 'pointer', color: 'rgb(51, 51, 164)' }
           }}
           variant='h6' gutterBottom>Vehicles</Typography>
+      </MenuItem>
 
+      <MenuItem>
         <Typography onClick={() => navigate('/marcedes/sports')}
           sx={currentUrl.includes("sports") ? { color: '#1976d2', mr: { xs: 1, md: 4 } } : {
             mr: { xs: 1, md: 4 },
             '&:hover': { cursor: 'pointer', color: 'rgb(51, 51, 164)' }
           }} variant='h6' gutterBottom>Sports</Typography>
+      </MenuItem>
 
+      <MenuItem>
         <Typography onClick={() => navigate('/marcedes/museum')}
           sx={currentUrl.includes("museum") ? { color: '#1976d2', mr: { xs: 1, md: 4 } } : {
             mr: { xs: 1, md: 4 },
             '&:hover': { cursor: 'pointer', color: 'rgb(51, 51, 164)' }
           }}
           variant='h6' gutterBottom>Museum</Typography>
+      </MenuItem>
+
+      <MenuItem>
         <Typography onClick={() => navigate('/marcedes/life-style')}
           sx={currentUrl.includes("life-style") ? { color: '#1976d2', mr: { xs: 1, md: 4 } } : {
             mr: { xs: 1, md: 4 },
             '&:hover': { cursor: 'pointer', color: 'rgb(51, 51, 164)' }
           }} variant='h6' gutterBottom>Life Style</Typography>
-      </MenuItem>
-      <MenuItem>
-        <Typography sx={{ mr: { xs: 1, md: 4, '&:hover': { cursor: 'pointer', color: 'rgb(51, 51, 164)' } } }} variant='h6' gutterBottom>Life Style</Typography>
       </MenuItem>
     </Menu>
   );
