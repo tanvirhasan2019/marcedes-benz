@@ -11,7 +11,10 @@ import VehiclesSwipper from '../../components/swipper/VehiclesSwipper'
 import { suvs } from "../../constants/cars/Suvs"
 import { coupoes } from "../../constants/cars/Coupes"
 import { sedans } from "../../constants/cars/Sedans"
+<<<<<<< HEAD
 import { useNavigate } from 'react-router-dom';
+=======
+>>>>>>> 4b0f4764bd07f5ca6aedf98b33a6809d5d84cb20
 
 export default function LandingPage() {
   const navigate = useNavigate()
@@ -25,7 +28,11 @@ export default function LandingPage() {
         <Chip component={Paper} elevation={4} sx={{ width: '150px', textAlign: 'center', mt: 1, mb: 1, p: 2, fontSize: '1rem' }} label="Suvs" color="warning" />
         <VehiclesSwipper cars={suvs} />
         <Box display={"flex"} justifyContent={"center"}>
+<<<<<<< HEAD
           <Fab onClick={()=>navigate('/marcedes/vehicles')} sx={{ m: 2, width: '200px' }} variant="extended" color="primary" aria-label="add">
+=======
+          <Fab sx={{ m: 2, width: '200px' }} variant="extended" color="primary" aria-label="add">
+>>>>>>> 4b0f4764bd07f5ca6aedf98b33a6809d5d84cb20
             <ExpandMoreIcon sx={{ mr: 1 }} />
             Explore more
           </Fab>
@@ -37,7 +44,11 @@ export default function LandingPage() {
         <Chip component={Paper} elevation={4} sx={{ width: '150px', textAlign: 'center', mt: 1, mb: 1, p: 2, fontSize: '1rem' }} label="Coupoes" color="warning" />
         <VehiclesSwipper cars={coupoes} />
         <Box display={"flex"} justifyContent={"center"}>
+<<<<<<< HEAD
           <Fab onClick={()=>navigate('/marcedes/vehicles')} sx={{ m: 2, width: '200px' }} variant="extended" color="primary" aria-label="add">
+=======
+          <Fab sx={{ m: 2, width: '200px' }} variant="extended" color="primary" aria-label="add">
+>>>>>>> 4b0f4764bd07f5ca6aedf98b33a6809d5d84cb20
             <ExpandMoreIcon sx={{ mr: 1 }} />
             Explore more
           </Fab>
@@ -49,7 +60,11 @@ export default function LandingPage() {
         <Chip component={Paper} elevation={4} sx={{ width: '150px', textAlign: 'center', mt: 1, mb: 1, p: 2, fontSize: '1rem' }} label="Sedans" color="warning" />
         <VehiclesSwipper cars={sedans} />
         <Box display={"flex"} justifyContent={"center"}>
+<<<<<<< HEAD
           <Fab onClick={()=>navigate('/marcedes/vehicles')} sx={{ m: 2, width: '200px' }} variant="extended" color="primary" aria-label="add">
+=======
+          <Fab sx={{ m: 2, width: '200px' }} variant="extended" color="primary" aria-label="add">
+>>>>>>> 4b0f4764bd07f5ca6aedf98b33a6809d5d84cb20
             <ExpandMoreIcon sx={{ mr: 1 }} />
             Explore more
           </Fab>

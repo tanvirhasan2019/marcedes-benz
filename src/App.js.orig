@@ -6,14 +6,13 @@ import LandingPage from "./pages/landingPage/LandingPage"
 import News from "./pages/News/News"
 import Videos from "./pages/Videos/Videos"
 import Vehicles from "./pages/Vehicles/Vehicles"
+<<<<<<< HEAD
+import Meuseum from "./pages/Meuseum/Meuseum"
+=======
 import LifeStyle from "./pages/LifeStyle/LifeStyle"
 import VehicleDetails from "./pages/Vehicles/Details/VehicleDetails"
-<<<<<<< HEAD
-import Sport from "./pages/sports/Sport"
-=======
-import Meuseum from "./pages/Meuseum/Meuseum"
->>>>>>> 4b0f4764bd07f5ca6aedf98b33a6809d5d84cb20
 
+>>>>>>> 6abc58d (Vehicle details page design)
 function App() {
   return (
     <div className="main-div">
@@ -24,13 +23,12 @@ function App() {
           <Route exact path='/marcedes/news' element={<News />}></Route>
           <Route exact path='/marcedes/videos' element={<Videos />}></Route>
           <Route exact path='/marcedes/vehicles' element={<Vehicles />}></Route>
+<<<<<<< HEAD
+          <Route exact path='/marcedes/museum' element={<Meuseum />}></Route>
+=======
           <Route exact path='/marcedes/vehicles/:id' element={<VehicleDetails />}></Route>
           <Route exact path='/marcedes/life-style' element={<LifeStyle />}></Route>
-<<<<<<< HEAD
-          <Route exact path='/marcedes/sports' element={<Sport />}></Route>
-=======
-          <Route exact path='/marcedes/museum' element={<Meuseum />}></Route>
->>>>>>> 4b0f4764bd07f5ca6aedf98b33a6809d5d84cb20
+>>>>>>> 6abc58d (Vehicle details page design)
         </Routes>
       </Router>
       <Footer />
