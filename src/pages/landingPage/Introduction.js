@@ -48,14 +48,14 @@ export const Introduction = () => {
           <img 
            className="intro-image"
            alt="intro logo"
-           src={"https://www.mercedes-benz.com/en/_jcr_content/root/channeltiles_copy_co/parsys/channeltilesitem_1240785833/image/MQ6-12-image-20190123184747/museum-channel-tile.jpeg"} 
+           src={"https://drive.google.com/uc?export=view&id=133-2G_1W0uaUqKgRgqcooLbprvretME-"} 
           />
         </Box>
         <Box sx={{ width: '300px'}}>
           <img 
           alt="intro logo"
            className="intro-image"
-           src={"https://www.mercedes-benz.com/en/_jcr_content/root/channeltiles_copy_co/parsys/channeltilesitem_1850677750/image/MQ6-12-image-20210225164610/me-channel-tile_new.jpeg"} 
+           src={"https://drive.google.com/uc?export=view&id=1ToY_kb70K1FJm6CwAnJITN9NfCiISN2b"} 
           />
         </Box>
         
@@ -63,7 +63,7 @@ export const Introduction = () => {
           <img 
            alt="intro logo"
            className="intro-image"
-           src={"https://www.mercedes-benz.com/en/_jcr_content/root/channeltiles_copy_co/parsys/channeltilesitem_164191792/image/MQ6-12-image-20191216112113/she-channel-tile.jpeg"} 
+           src={"https://drive.google.com/uc?export=view&id=1wqwUmf5u21tqQn0VzsGJOXtNGhLkNlaE"} 
           />
         </Box>
       </Stack>

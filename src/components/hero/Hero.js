@@ -10,7 +10,7 @@ export const Hero = () => {
             <Carousel stopOnHover={false} autoPlay={true} interval={2000} infiniteLoop={true}>
                 {sliders?.map((item, index) =>
                     <div key={index}>
-                        <img src={item?.imgSrc} alt="caption of heading" />
+                        <img style={{maxHeight: '90vh'}} src={item?.imgSrc} alt="caption of heading" />
                         <p className="legend">{item?.title}</p>
                     </div>
                 )}
