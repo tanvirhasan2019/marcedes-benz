@@ -27,8 +27,8 @@ export default function TitlebarImageList({data,title}) {
       {data.map((item) => (
         <ImageListItem onClick={()=>handleNavigatePage(item?.id)} sx={{ "&:hover": { cursor: 'pointer' } }} key={item?.id}>
           <img
-            src={`${item?.mainImage}?w=248&fit=crop&auto=format`}
-            srcSet={`${item.mainImage}?w=248&fit=crop&auto=format&dpr=2 2x`}
+            src={`${item?.mainImage}&w=248&fit=crop&auto=format`}
+            srcSet={`${item.mainImage}&w=248&fit=crop&auto=format&dpr=2 2x`}
             alt={item?.title}
             loading="lazy"
           />
