@@ -168,163 +168,163 @@ export const popularCategory = [
         id : "museum",
         title : "museum",
         subtitle : "Mercedes-Benz Museum.",
-        mainImage : "https://drive.google.com/uc?export=view&id=classic/museum/_jcr_content/root/topstage_copy/image/MQ7-0-image-20191008132135/01-mercedes-benz-museum-overview-3400x1440.jpeg",
-        secondaryImage : "https://images.anythingabout.net/https://www.instagram.com/p/CgkH1E2qLnU/media/?size=l",
+        mainImage : "https://drive.google.com/uc?export=view&id=1OGKiYMDBhsARHJYmS1pqE6t77eBs0I55",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=12aCBIQlKl1M2U6hxz5zFy37OcUuinyFH",
         description : "The Mercedes-Benz Museum in Stuttgart celebrates the automobile invented by Carl Benz in 1886: it relates its history and tells its stories, bringing both alive by placing them in the context of technology, day-to-day life, social history and popular culture. More than 160 vehicles of all types are the main protagonists. They range from some of the oldest automobiles ever built to legendary racing cars and futuristic research vehicles.",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=classic/museum/museum-summer/_jcr_content/root/fullscreenstage/image/MQ7-0-image-20220509134634/01-mercedes-benz-museum-summer-2022-5120x2240.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=1NSwKDjr35m3GyHaddzyDmzwePkgSZJE"
     },
     {
         id : "g-class",
         title : "OverView",
         subtitle : "Strong characters. Strong emotions. Stronger than ever. Discover the multifaceted world of the G-Class and be inspired by the characteristics, that this exceptional off-roader has represented for over 40 years.",
-        mainImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/g-class/_jcr_content/root/slider_copy/sliderchilditems/slideritem/image/MQ7-0-image-20220209120751/mercedes-benz-g-class-w463-brandhub-g-world-fullscreen-stage-3400x1400-01-2020.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/g-class/_jcr_content/root/verticalgallery_1616/parsys/verticalgalleryitem_237185311/image/MQ6-0-image-20220209121408/mercedes-benz-g-class-endurance-overview-gallery-01-1680x1260-02-2022.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1D0AXk2S454l70jMJT1SGskXE_ORR88ta",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=175uQaykUqCKOi5c7puvRMxvsrqJJ17Zk",
         description : "Stronger than time.The design: timeless. The cult status: iconic. The construction: legendary. The G-Class has stood the test of time for more than 40 years. There’s good reason why many of the original cross-country vehicles are still on the road to this day.",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/g-class/_jcr_content/root/verticalgallery_copy_1681692863/parsys/verticalgalleryitem/image/MQ6-0-image-20220210102022/mercedes-benz-g-class-w463-brandhub-g-world-vertical-gallery-03-1050x1403-01-2020.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=1gj5XyNM0T25SFdUrtVOzuiPvJxbFARe3"
     },
     {
         id : "visitor-information",
         title : "Mercedez Benz Museum",
         subtitle : "General opening hours and contact.",
-        mainImage : "https://drive.google.com/uc?export=view&id=classic/museum/visitor-information/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20190401132304/01-visitor-information-mercedes-benz-museum-3400x1440.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=classic/museum/visitor-information/_jcr_content/root/slider_13/sliderchilditems/slideritem_0/image/MQ7-0-image-20190114135710/classic_museum_besucherinformation-preise_06c1503_15_3400x1440.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1u4AnINJ_zI3aUCsqg01QNLh6d6e9uJUr",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=1gJlq8P93yRf3Ng2fixH0gBXrQJKzJyKq",
         description : "In the museum’s car park or in the P4 multistory car park. Parking fees: 2,00 € per hour for the first, second and third hour; 2,50 € per hour from the fourth hour. Present your parking ticket when shopping in our museum shops or visiting our restaurants and you will be granted one hour of free parking. Please use either the museum multi-storey car park or the adjacent multi-storey car park P4. (The P4 multi-storey car park does not have any parking spaces for disabled persons nor does it have lifts).",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=classic/museum/visitor-information/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20190401132304/01-visitor-information-mercedes-benz-museum-3400x1440.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=13elWyrtk1QbyLoKt6H6NjGG_VgPYWDEo"
     },
     {
         id : "the-new-mercedes-maybach-s-class",
         title : "The new Mercedes‑Maybach S‑Class",
         subtitle : "Our aspiration is to surpass yours.",
-        mainImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/mercedes-maybach/the-new-mercedes-maybach-s-class/_jcr_content/root/fullscreenstage_copy/image/MQ7-0-image-20201118174525/mercedes-maybach-s-class-z223-stage-3400x1440-11-2020.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/mercedes-maybach/the-new-mercedes-maybach-s-class/_jcr_content/root/verticalgallery_copy/parsys/verticalgalleryitem_1734008149/image/MQ6-0-image-20201118112349/mercedes-maybach-s-class-z223-highlight-02-1680x1260-11-2020.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=164nvLLVuamIWUoxW3s0oj7a9pMAH_Utq",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=10VXLa5h2eRLZ87jQ4EJM2TH_10g9XdxH",
         description : "Excellent comfort and ultimate luxury – especially in the rear – are the top-most priority. Innovative details and exquisite materials make the Mercedes‑Maybach S‑Class a refuge that offers the brand’s hallmark experience of luxury.",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/mercedes-maybach/the-new-mercedes-maybach-s-class/_jcr_content/root/tabgallery_copy/tabitems/tabgalleryitem/image/MQ6-0-image-20201118113430/mercedes-maybach-s-class-z223-interior-2560x1120-11-2020.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=1bJh8I6Y_-GKwuQApBCdduBlzvXNEDdPE"
     },
     {   
         id : "Up-for-an-Icon?",
         title : "Up for an Icon?",
         subtitle : "40 years of Mercedes-Benz compact series 201.",
-        mainImage : "https://drive.google.com/uc?export=view&id=classic/history/upforanicon/_jcr_content/root/fullscreenstage/image/MQ7-0-image-20220725142337/01-mercedes-benz-museum-up-for-an-icon-5120x2240.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=classic/history/upforanicon/_jcr_content/root/starpattern/image/MQ7-0-image-20220725142815/02-mercedes-benz-museum-up-for-an-icon-3400x1488.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1EikNXiAyfL6C86ZSJD3LyVmSTfguDzAm",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=1oRm7YJgNrVV79089FcwbvreBxaQsFqfi",
         description : "For 40 years, the 201 series has stood for carefree driving pleasure. When it was launched in 1982, the compact-class saloon with its clear edges was considered a real rebel. Quite the teenager, it was also affectionately called the “Baby-Benz”. Especially as the top model EVO II, it was and remains the icon of youth.",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=classic/history/upforanicon/_jcr_content/root/paragraphwebcomponen/paragraph-right/paragraphimagewebcom/image/MQ6-0-image-20220725143147/03-mercedes-benz-museum-up-for-an-icon-2560x2560.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=12I7RoTfKNDhihYuiRn456OHrMsnpZJXo"
     },
     {
         id : "eqe",
         title : "The EQE",
         subtitle : "",
-        mainImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/eqe/_jcr_content/root/paragraphwebcomponen/paragraph-right/paragraphimagewebcom/image/MQ6-0-image-20210904102735/mercedes-benz-eqe-v295-introduction-overlayimage-1680x1260-08-2021.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/eqe/_jcr_content/root/verticalgallery_copy_660681491/parsys/verticalgalleryitem_560260704/image/MQ6-0-image-20220225143119/mercedes-benz-eqe-v295-design-vertical-gallery-03-1680x1680-02-2022.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1AKUEgGAugFJpLHU5zpNMcJygfg1nJqb2",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=1FOSafdrD6o4HfuGSq5gLfqpRUpog4_Xi",
         description : "With its sensual clarity, the new EQE radiates an incomparable modernity. Form-shaping: the elegant one-bow design. A coupé line that extends from the front all the way to the rear.",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/eqe/_jcr_content/root/paragraphwebcomponen_700490370/paragraph-left/paragraphimagewebcom/image/MQ6-0-image-20210904123215/mercedes-benz-eqe-v295-technology-overlayimage-1680x1260-08-2021.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=12KJyTp2HDSK2QpiLKdx9rlnrotFAnelg"
     },
     {
         id : "mercedes-me",
         title : "Mercedes Me",
         subtitle : "We’ve reinvented mobility before.",
-        mainImage : "https://drive.google.com/uc?export=view&id=mercedes-me/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20190429133643/01-mercedes-me-3400x1440.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=mercedes-me/_jcr_content/root/paragraph_copy/paragraph-right/paragraphimage/image/MQ6-10-image-20190429133807/04-mercedes-me-2560x1800.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1LuTdTZ7RbJDRdji4Wqll_jPsSM46JqAL",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=1oRm7YJgNrVV79089FcwbvreBxaQsFqfi",
         description : "Know even before you set off that you’re going to arrive on time: with journeys that you undertake regularly, the estimated driving time function in Mercedes me alerts you in good time to delays caused by traffic jams. It calculates the expected extra journey time and prompts you to set off correspondingly sooner. Where’s the car key? In your smartphone! The Digital Vehicle Key allows you to lock and unlock your Mercedes-Benz from your smartphone – and even to start the engine that way.II",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=mercedes-me/_jcr_content/root/slider_1121711039_co/sliderchilditems/slideritem/image/MQ7-0-image-20190429133836/05-mercedes-me-3400x1440.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=164nvLLVuamIWUoxW3s0oj7a9pMAH_Utq"
     },
     {
         id : "sports",
         title : "OverView",
         subtitle : "Strong characters. Strong emotions. Stronger than ever. Discover the multifaceted world of the G-Class and be inspired by the characteristics, that this exceptional off-roader has represented for over 40 years.",
-        mainImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/g-class/_jcr_content/root/slider_copy/sliderchilditems/slideritem/image/MQ7-0-image-20220209120751/mercedes-benz-g-class-w463-brandhub-g-world-fullscreen-stage-3400x1400-01-2020.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/g-class/_jcr_content/root/verticalgallery_1616/parsys/verticalgalleryitem_237185311/image/MQ6-0-image-20220209121408/mercedes-benz-g-class-endurance-overview-gallery-01-1680x1260-02-2022.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1p4eKjW0tFQ7qZPryQh4xx4nYtmEMYoV1",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=1i_lwUseRK-QPcdJFrMmlXKw1nkXR6l3q",
         description : "Stronger than time.The design: timeless. The cult status: iconic. The construction: legendary. The G-Class has stood the test of time for more than 40 years. There’s good reason why many of the original cross-country vehicles are still on the road to this day.",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/g-class/_jcr_content/root/verticalgallery_copy_1681692863/parsys/verticalgalleryitem/image/MQ6-0-image-20220210102022/mercedes-benz-g-class-w463-brandhub-g-world-vertical-gallery-03-1050x1403-01-2020.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=1B2r5VIaoKT6mmpseXsZ9ZB4IAYUvA-0P"
     },
     {
         id : "camper-vans",
         title : "The Camper Vans",
         subtitle : "The Marco Polo.",
-        mainImage : "https://drive.google.com/uc?export=view&id=vehicles/camper-vans/_jcr_content/root/fullscreenstage_copy/image/MQ7-0-image-20210504181922/mercedes-benz-marco-polo-hero-campaign-3400x1440.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=vehicles/camper-vans/_jcr_content/root/mediagallery_copy_co/parsys/mediagalleryitem/image/MQ6-0-image-20210927095630/mercedes-benz-marco-polo-komfort-1280x720.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1WO7CBlGBs94DFLHLTnzxBf6VXyBqFzyQ",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=19U3e3GVxohEGjPer9O-DySwnbmkDE37a",
         description : "Equipment features. Modern living concept and extensively equipped kitchenette including a 2-flame gas stove, sink, and an integral refrigerator box.",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=vehicles/camper-vans/_jcr_content/root/mediagallery_copy_co_865914275/parsys/mediagalleryitem_792916388/image/MQ6-0-image-20210504182241/mercedes-benz-marco-polo-comfort-media-gallery-03-1280x720.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=1HCi-FlZN3wwW16KSjxmGrZVQBP3cws3_"
     },
     {
         id : "next",
         title : "Mercedes Benz Innovation",
         subtitle : "Mercedes-Benz: Innovation.",
-        mainImage : "https://drive.google.com/uc?export=view&id=next/_jcr_content/root/slider_0/sliderchilditems/slideritem_0/image/MQ7-0-image-20190904175043/01-mercedes-benz-innovation-vision-urbanetic-3400x1440.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=next/_jcr_content/root/paragraph_3/paragraph-right/paragraphimage/image/MQ6-10-image-20210208163852/02-mercedes-benz-innovation-future-mobility-revolution-CASE-1280x720.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1gRuTWP0BnRedDyE3UMjqb6ubJQ8J41kQ",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=1Ose9-gWKtS6H-VkPggaNOUHphEIw5i_B",
         description : "As a pioneer of the automobile, we seek innovations which provide for pleasant, safe and resource-friendly mobility, day in, day out. Discover our visionary ideas for vehicles, mobility concepts, e-mobility and digital networking of the future – as well as the solutions with which we are already shaping the present. With the CASE strategy, Daimler focuses on the four major trends influencing future mobility – Connected, Autonomous, Shared & Services and Electric. And Daimler is already making great progress in all of these fields to shape the future of mobility. Each of the four CASE fields in itself already changes mobility fundamentally; however, the revolutionary potential only becomes apparent when the CASE fields are combined.",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=next/_jcr_content/root/slider_0/sliderchilditems/slideritem_0/image/MQ7-0-image-20190904175043/01-mercedes-benz-innovation-vision-urbanetic-3400x1440.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=1j3xKrIbSq-H6AXKOGrsFK5mIqzf2BR6A"
     },
     {
         id : "classic",
         title : "Mercedes-Benz Classic.",
         subtitle : "Mercedes-Benz Classic.",
-        mainImage : "https://drive.google.com/uc?export=view&id=classic/_jcr_content/root/fullscreenstage_copy/image/MQ7-0-image-20220318115952/01_mercedes-benz_classic_history_w116_2022_5120x2240.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=classic/_jcr_content/root/paragraph_copy_13533/paragraph-right/paragraphimage/image/MQ6-10-image-20220318120101/09_mercedes-benz_classic_history_w116_2022_2560x1440.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=13WvFbpsWmtGJRlC7pT5uZ_DEe4spGVLX",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=1to6dX3jqBDojUqYiY0SEHeWtbiTqpS0Z",
         description : "Experience a journey through time in the Mercedes-Benz Museum, fulfill your dream of a Mercedes-Benz classic car or learn more about our brand clubs.",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=classic/_jcr_content/root/paragraph_copy_13533/paragraph-left/paragraphimage_17344/image/MQ6-10-image-20220318120036/08_mercedes-benz_classic_history_w116_2022_2560x1440.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=1HjfIAuLmnDZcZceMstDUARX2S3SLjEWy"
     },
     {   
         id : "Up-for-an-Icon?",
         title : "Up for an Icon?",
         subtitle : "40 years of Mercedes-Benz compact series 201.",
-        mainImage : "https://drive.google.com/uc?export=view&id=classic/history/upforanicon/_jcr_content/root/fullscreenstage/image/MQ7-0-image-20220725142337/01-mercedes-benz-museum-up-for-an-icon-5120x2240.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=classic/history/upforanicon/_jcr_content/root/starpattern/image/MQ7-0-image-20220725142815/02-mercedes-benz-museum-up-for-an-icon-3400x1488.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1dS1Lq3GK54jdx5r7T3IoTH4MkO8TIxdV",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=140D9UXVbD6DB0H964q9QrTD5hHZyRD59",
         description : "For 40 years, the 201 series has stood for carefree driving pleasure. When it was launched in 1982, the compact-class saloon with its clear edges was considered a real rebel. Quite the teenager, it was also affectionately called the “Baby-Benz”. Especially as the top model EVO II, it was and remains the icon of youth.",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=classic/history/upforanicon/_jcr_content/root/paragraphwebcomponen/paragraph-right/paragraphimagewebcom/image/MQ6-0-image-20220725143147/03-mercedes-benz-museum-up-for-an-icon-2560x2560.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=1ktfrHc4zVnCxH9nZvqkdbtU3t93utUNA"
     },
     {
         id : "the-new-mercedes-maybach-gls",
         title : "Mercedes‑Maybach GLS.",
         subtitle : "Mercedes‑Maybach GLS.",
-        mainImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/mercedes-maybach/the-new-mercedes-maybach-gls/_jcr_content/root/fullscreenstage_copy/image/MQ7-0-image-20210830153632/mercedes-benz-gls-x167-brandhub-productpage-stage-3200x1400-11-2019.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/mercedes-maybach/the-new-mercedes-maybach-gls/_jcr_content/root/verticalgallery_copy/parsys/verticalgalleryitem__1736822143/image/MQ6-0-image-20191120153758/mercedes-benz-gls-x167-brandhub-productpage-independence-03-1350x1010-11-2019.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1zhZ1ZzofX8J3aP_1MTxeMYdl8FbKqY7O",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=10yjJVv4gW_UCgIuL4knWhEZzp-z7Wxmx",
         description : "For all those who attach the greatest importance to their independence.",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/mercedes-maybach/the-new-mercedes-maybach-gls/_jcr_content/root/mediagallery_copy/parsys/mediagalleryitem/image/MQ6-0-image-20191120152028/mercedes-benz-gls-x167-brandhub-productpage-interior-01-2560x1440-11-2019.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=1mhFNpMJBZeXUAC-B7wg-X5CkJDnrx5wz"
     },
     {
         id : "lifestyle",
         title : "Mercedes-Benz: Lifestyle.",
         subtitle : "Mercedes-Benz: Lifestyle.",
-        mainImage : "https://drive.google.com/uc?export=view&id=lifestyle/_jcr_content/root/slider_0_copy/sliderchilditems/slideritem_0/image/MQ7-0-image-20190709123238/01-mercedes-benz-lifestyle-g-500-4x4c2b2-w-463-3400x1400.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/mercedes-maybach/the-new-mercedes-maybach-gls/_jcr_content/root/verticalgallery_copy/parsys/verticalgalleryitem__1736822143/image/MQ6-0-image-20191120153758/mercedes-benz-gls-x167-brandhub-productpage-independence-03-1350x1010-11-2019.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1gDB2j6CD3UaWmwMS2NiBroM3OIPnC8Dw",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=1LxJgszxe1Y6Rk6mkkEEyR5hQ6DOhXFDl",
         description : "Mercedes-Benz lifestyle has many different facets: from journeys, road trips and digital travel guides through fashion to fitness and exciting formats such as the Mercedes me Magazine and She’s Mercedes. Get to know strong women who adopt new perspectives and thus change the world. Delve into the lives of strong personalities who share their extraordinary and inspiring stories with the Mercedes-Benz community. Susie Wolff, Mike Horn, Alondra de la Parra and Roger Federer are just some of the people who prove to us every day that nothing is impossible.",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=classic/_jcr_content/root/paragraph_copy_13533/paragraph-left/paragraphimage_17344/image/MQ6-10-image-20220318120036/08_mercedes-benz_classic_history_w116_2022_2560x1440.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=1LsM_43Mm4f0Sj0FSayxGCwjN9Wl4zj9i"
     },
     {
         id : "g-manufaktur",
         title : "g-manufaktur",
         subtitle : "g-manufaktur",
-        mainImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/g-class/g-manufaktur/_jcr_content/root/textmask_849723917_c/parsys/crossfadescroll/parsys/crossfadescrollitem/image/MQ7-0-image-20220427112345/mercedes-benz-g-class-w463-design-amg-line-3400x1912-06-2022.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/g-class/g-manufaktur/_jcr_content/root/textmask_849723917_c/parsys/crossfadescroll/parsys/crossfadescrollitem_507461774/image/MQ7-0-image-20220427112356/mercedes-benz-g-class-w463-design-amg-g63-3400x1912-06-2022.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1tzdw9XuHFXnoJHU5NHLRtxnnwzFbQERX",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=1iDh4LT0yiUrsHJcLnknAAkLZzMIMm1-e",
         description : "Make your G-Class unique.",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=classic/_jcr_content/root/paragraph_copy_13533/paragraph-left/paragraphimage_17344/image/MQ6-10-image-20220318120036/08_mercedes-benz_classic_history_w116_2022_2560x1440.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=18EKPQRtcopSUpgb-3enDcC_YWlIT01g0"
     },
     {
         id : "guided-tours",
         title : "guided-tours",
         subtitle : "guided-tours",
-        mainImage : "https://drive.google.com/uc?export=view&id=classic/museum/guided-tours/_jcr_content/root/slider_copy/sliderchilditems/slideritem/image/MQ7-0-image-20210826100630/01-guided-tours-mercedes-benz-museum-3400x1440.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=classic/museum/guided-tours/_jcr_content/root/paragraph_274545400_/paragraph-right/paragraphimage_64256/image/MQ6-10-image-20220721120615/02-museum-tour-in-the-mercedes-benz-museum-2560x1440.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1iuZHRWWSe0rjleXQuTV81-4TUH7kX8tq",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=1N4PZG2JLWNrzIeyskzrsQIEFcz7FJD9k",
         description : "Turn your visit to the museum into a fascinating experience of a journey through time – right where the inventor of the motorcar is based. History – and particularly the history of the motorcar – from 1886 onwards is just waiting to be discovered by you with our expert guidance. Start with the world’s first motorcar and progress through to see what the latest concept cars have to offer. During the museum tour you will also immerse yourself in the fascination of Mercedes-Benz SL.",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=classic/museum/guided-tours/_jcr_content/root/paragraph_3_copy_cop/paragraph-left/paragraphimage_827516310/image/MQ6-10-image-20190503155448/classic_museum_fuehrungen_Audio-Guide_Sprachen_2560x1440.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=1Qrc6nDQtzTiOe9txYAkHGJbHOTb7SWVh"
     },
     {
         id : "the-new-mercedes-maybach-gls",
         title : "Mercedes‑Maybach GLS.",
         subtitle : "Mercedes‑Maybach GLS",
-        mainImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/mercedes-maybach/the-new-mercedes-maybach-gls/_jcr_content/root/fullscreenstage_copy/image/MQ7-0-image-20210830153632/mercedes-benz-gls-x167-brandhub-productpage-stage-3200x1400-11-2019.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/mercedes-maybach/the-new-mercedes-maybach-gls/_jcr_content/root/verticalgallery_copy/parsys/verticalgalleryitem__1736822143/image/MQ6-0-image-20191120153758/mercedes-benz-gls-x167-brandhub-productpage-independence-03-1350x1010-11-2019.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1q4u0ItOAG2UJuL6jEDPNu8nw8Wq7Q-Rk",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=1FIwATkHgFumXHojc9Xkmg3eb6Ukz5kY1",
         description : "For all those who attach the greatest importance to their independence.",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/mercedes-maybach/the-new-mercedes-maybach-gls/_jcr_content/root/mediagallery_copy/parsys/mediagalleryitem/image/MQ6-0-image-20191120152028/mercedes-benz-gls-x167-brandhub-productpage-interior-01-2560x1440-11-2019.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=1cs7-3-lZdVp770QLkd6Iy0KSqiDmEQEG"
     },
     {
         id : "the-new-mercedes-maybach-g-650-landaulet",
         title : "Definition of unique luxury.",
         subtitle : "Definition of unique luxury.",
-        mainImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/g-class/the-new-mercedes-maybach-g-650-landaulet/_jcr_content/root/slider_mb_topimage_0/sliderchilditems/slideritem_0/image/MQ7-0-image-20190724154946/000-Topstory-Mercedes-Benz-Fahrzeuge-Mercedes-Maybach-G-650-Landaulet-W-463-3400x1440.jpeg",
-        secondaryImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/g-class/the-new-mercedes-maybach-g-650-landaulet/_jcr_content/root/paragraph_mb_contentimage_lr2/paragraph-right/paragraphimage/image/MQ6-10-image-20190114124627/01-mercedes-benz-vehicles-mercedes-maybach-g-650-landaulet-w-463-1360x758.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1fql0x6Wrtl1qT3dWM4dioqbOuDImC0AR",
+        secondaryImage : "https://drive.google.com/uc?export=view&id=15G2x32K5N72BjHpE8-2aXNgvNlVfvXUa",
         description : "The history of the G-Class is rich in superlatives and landmarks. With the new Mercedes-Maybach G 650 Landaulet, the off-road classic demonstrates that the definition of unique luxury can always be taken to a new level. Not only that: it is forever reinventing itself and providing yet more evidence of the potential that still resides in this classic all-terrain vehicle today, which has been in production since 1979.",
-        tertiaryImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/g-class/the-new-mercedes-maybach-g-650-landaulet/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20190724160452/02-mercedes-benz-fahrzeuge-mercedes-maybach-g-650-landaulet-w-463-2560x872.jpeg"
+        tertiaryImage : "https://drive.google.com/uc?export=view&id=1-DvpKmf2iyuNy4SkUQNjbwbr5eoVne1O"
     }
 ]
 
@@ -332,77 +332,77 @@ export const videoCategory = [
     {
         id : "mercedes-eq-and-sk-gaming-launch-project-avarosa",
         title : "Mercedes-EQ and SK Gaming launch Project Avarosa.",
-        mainImage : "https://drive.google.com/uc?export=view&id=sports/esports/mercedes-eq-and-sk-gaming-launch-project-avarosa/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20210929101257/01-mercedes-eq-and-sk-gaming-launch-project-avarosa-3400x1440.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1TM6j_EX6P3a1nH89aHbeu9uUICYVPfnu",
         url : "https://youtu.be/R_zzf_y-MYs",
         description : "Mercedes-Benz has been a partner of the Esports organization SK Gaming since 2019, and numerous joint projects have already been successfully implemented. Mercedes-EQ and SK Gaming want to follow up on this with Project Avarosa and make a contribution to more equal opportunities in Esports. Project Avarosa involves a scouting process and the subsequent promotion of a League of Legends team consisting of female and non-binary gamers. The goal is to enable the gamers to pursue a professional career and to offer them a safe environment with the best training opportunities along their way. The requirements for becoming a team member are a minimum age of 16 (parental consent provided) and a performance level defined by an in-game metric – the ranking system. Applications are welcome from gamers ranked Platinum II and up. Residence must be in Europe, preferably in Germany, Austria or Switzerland. Furthermore, the applicant must be willing to travel and participate in offline activities such as boot camps or workshops."
     },
     {
         id : "the-new-eqa-presented-by-leonie-von-hase",
         title : "The New Eqa presented by leonie von hase",
-        mainImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/eqa/the-new-eqa-presented-by-leonie-von-hase/_jcr_content/root/slider_1889449454/sliderchilditems/slideritem/image/MQ7-0-image-20210630100706/02-mercedes-benz-the-new-eqa-2021-h243-electric-test-drive-with-leonie-von-hase-3400x1440.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=13EzS2eNhM3iBG4DJzw0V7tFzkhygeBWQ",
         url : "https://youtu.be/ScjTKw61vHU",
         description : "The EQA offers a whole new driving experience. The electro-aesthetics of the design signal Progressive Luxury. Back-lit trim and rosé gold-coloured highlights make the new interior stand out, while the new rear design with a stunning light band adds to its distinctive appearance. The EQA is both efficient and exciting – with a powerful electric drivetrain and a high-voltage lithium-ion battery. It offers increased range thanks to improved drag – low wind resistance means high efficiency. And the navigation system with Electric Intelligence always calculates the best route – considering weather, topography, and available charging stations."
     },
     {
         id : "the-v-class-features",
         title : "The V-Class: Features.",
-        mainImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/v-class/the-v-class-features/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20210728105812/01-mercedes-benz-v-class-br447-features-3400x1440.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1S1SHXz6urd9VqGbJ-yxtfjiAXFkskVq_",
         url : "https://youtu.be/mbmwRRByrb8",
         description : "The V-Class impresses at first glance – and after many thousands of kilometres. This applies to families, business people and hobby adventurers as well as shuttle passengers. The ergonomic, variable interior concept, various assistance and safety systems plus the new multimedia system MBUX* meet the highest requirements. Moreover, AIRMATIC air suspension (optional equipment) allows a high level of driving comfort.*The availability of the communication module (LTE) is temporarily limited for certain vehicles due to supply bottlenecks. Please note that especially Mercedes me connect services including the emergency call system (eCall) are not available in the affected vehicles. Ongoing actual information is available at your Mercedes-Benz dealer."
     },
     {
         id : "the-eqs-on-the-circuit-de-monaco",
         title : "The eqs on the circuit de monaco",
-        mainImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/eqs/the-eqs-on-the-circuit-de-monaco/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20210727140732/01_mercedes-benz-eqs-by-mercedes-eq-in-monaco-2021-v297_3400x1440.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1MGvT8kIaX5x2o85PVaPx0jwWhdXbvnnN",
         url : "https://youtu.be/gP6zxehX8NQ",
         description : "The EQS on the Circuit de Monaco. In racing as in life, it’s all about finding the right balance. Join Stoffel Vandoorne on his ride in the EQS on the legendary Circuit de Monaco to feel its divine energy."
     },
     {
         id : "mercedes-eq-enthusiasts",
         title : "Mercedes EQ Enthusiasts",
-        mainImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/eqa/mercedes-eq-enthusiasts/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20210318163112/01-mercedes-eq-enthusiasts-3400x1440.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1Igq-miHFvxzDkjn5QuwSdl28b0wCbg95",
         url : "https://youtu.be/9JI8otoigYI",
         description : "How to test an electric vehicle. How are electric Mercedes-Benz actually tested, and what does the everyday life of a developer and test driver look like? The latest instalment of our video series Mercedes-EQ Enthusiasts offers interesting insights and an extra-special look under the body of the EQC. Watch to see if our host, Dennis, is allowed to get behind the wheel! EQC 400 4MATIC: Stromverbrauch kombiniert: 20,1 kWh/100 km; CO₂-Emissionen kombiniert: 0 g/km.⁶"
     },
     {
         id : "into-off-road-terrain-with-the-legend",
         title : "Into off road terrain with the legend",
-        mainImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/g-class/into-off-road-terrain-with-the-legend/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20210705151344/01-mercedes-benz-g-class-experience-center-with-a-legend-into-off-road-terrain-3400x1440.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1w80VExXX7quSQxY7RaSJzH0o4C9Q8YJA",
         url : "https://youtu.be/SIUJoDHwDsc",
         description : "Into off-road terrain with the legend.The G-Class Experience Center in Graz starts into a new season. In exclusive small groups, you have the opportunity to get to know all the off-road and on-road capabilities of the G-Class. Book your ticket now."
     },
     {
         id : "we-are-mo-we-build-the-future",
         title : "We are mo we build the future",
-        mainImage : "https://drive.google.com/uc?export=view&id=innovation/vehicle-development/we-are-mo-we-build-the-future/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20210622160408/01-mercedes-benz-we-are-mo-we-build-the-future-3400x1440.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1DQXEm3tSQ77Tpe8YGS3hitzG66gS1_B9",
         url : "https://youtu.be/NXeH7oU9SIo",
         description : "We are MO – We build the future.At MO, we stand for passionate people, pioneering digitalisation, excellent products and responsible sustainability. All with the goal of building the future. All COVID-19 hygiene and safety measures were observed and adhered to. S 500 4MATIC: Kraftstoffverbrauch kombiniert: 8,6–8,0 l/100 km CO₂-Emissionen kombiniert: 196–183 g/km.¹"
     },
     {
         id : "the-new-c-class-stay-in-your-comfort-zone",
         title : "The new c class stay in your comfort zone",
-        mainImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/c-class/the-new-c-class-stay-in-your-comfort-zone/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20210614131345/01-the-new-c-class-w206-2021-stay-in-your-comfort-zone-3400x1440.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1DTbpLO2yO_9S5qPBK6uFawNVHH5JpslQ",
         url : "https://youtu.be/1Kr_5DfOwlU",
         description : "The new C-Class: Stay in your comfort zone. Every day we’re told to leave our comfort zone. But now is the time to do the opposite. Relax and leave the stress behind. In the new C-Class. "
     },
     {
         id : "the-new-s-class-and-its-functions",
         title : "The new s class and its functions",
-        mainImage : "https://drive.google.com/uc?export=view&id=vehicles/passenger-cars/s-class/the-new-s-class-and-its-functions/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20210512110530/01-mercedes-benz-the-new-s-class-w223-2020-and-its-functions-3400x1440.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=13Q7g33FC-x7rwrDUkAMXKQCmNgO_-QTX",
         url : "https://youtu.be/Ec_KgoGggYQ",
         description : "Alien car meets pure luxury.The previously optional MULTIBEAM LED is now the standard headlamp for the S-Class. As well as variable control of low and high beam, it also features Adaptive Highbeam Assist Plus. The optional DIGITAL LIGHT system enters series production for the first time. This allows completely new functions, e.g., the projection of guidelines or warning symbols onto the road ahead. In the MULTIBEAM LED headlamp, a light module with 84 LEDs arranged in three lines creates a grid in the form of a matrix. With this arrangement, not only the light distribution of the high beam but also that of the low beam is freely configurable and technically precise. MULTIBEAM LED therefore allows different light functions to actuate independently. The content was produced pre COVID-19."
     },
     {
         id : "we-drive-the-city-mercedes-eq-formula-e-team",
         title : "We drive the city mercedes eq formula e team",
-        mainImage : "https://drive.google.com/uc?export=view&id=innovation/electric/we-drive-the-city-mercedes-eq-formula-e-team/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20210503151019/01-we-drive-the-city-mercedes-eq-formula-e-team-3400x1440.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1o0Mc7h7oQV7Nz2NIYAsSRmGsNvKpbMFC",
         url : "https://youtu.be/NXeH7oU9SIo",
         description : "We Drive the City: Mercedes-EQ Formula E Team. Electrifying innovation knows no bounds. And that’s why Mercedes-EQ and its Formula E Team are committed to inspire change for society that transcends the urban circuits of Formula E. After all, together, #WeDriveTheCity​."
     },
     {
         id : "the-perfect-fit-your-mercedes-benz-and-mercedes-me",
         title : "The perfect fit your mercedes-benz and mercedes me",
-        mainImage : "https://drive.google.com/uc?export=view&id=mercedes-me/the-perfect-fit-your-mercedes-benz-and-mercedes-me/_jcr_content/root/slider/sliderchilditems/slideritem/image/MQ7-0-image-20210423122037/01-the-perfect-fit-your-mercedes-benz-and-mercedes-me-3440x1440.jpeg",
+        mainImage : "https://drive.google.com/uc?export=view&id=1iVTFcX_0eV5LPEYRC-2BJ4Obp9921kfx",
         url : "https://youtu.be/nYHJ9_zl3qA",
         description : "The perfect fit: Your Mercedes-Benz and Mercedes me. Some things just work perfectly together. Like your Mercedes-Benz and the digital services of Mercedes me. Experience the perfect fit. The availability of the communication module (LTE) is temporarily limited for certain vehicles due to supply bottlenecks. Please note that especially Mercedes me connect services including the emergency call system (eCall) are not available in the affected vehicles. Ongoing actual information is available at your Mercedes-Benz dealer."
     }
