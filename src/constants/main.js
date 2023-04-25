@@ -1,1 +1,1 @@
-export const logoUrl = "https://group-media.mercedes-benz.com/marsMediaSite/scr/1592564245000/46637120v9tv3m3/D597579-Mercedes-Benz-Logo.jpg"
+export const logoUrl = "https://drive.google.com/uc?export=view&id=1_xX1iHJ4GbHWT7LHThJVc2wxVhplSCHY"

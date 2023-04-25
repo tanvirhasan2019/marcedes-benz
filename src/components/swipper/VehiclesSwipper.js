@@ -13,7 +13,16 @@ import { Autoplay, Pagination } from "swiper";
 import { useNavigate } from "react-router-dom";
 
 export default function VehiclesSwipper({ cars }) {
+    const [windowWidth, setWindowWidth] = React.useState(window.innerWidth)
     const navigate = useNavigate()
+
+    const handleResize = () => {
+        setWindowWidth(window.innerWidth)
+      }
+    React.useEffect(() => {
+      window.addEventListener("resize", handleResize, false);
+    }, []);
+
     return (
         <>
             <Swiper
@@ -21,7 +30,7 @@ export default function VehiclesSwipper({ cars }) {
                     delay: 2500,
                     disableOnInteraction: false
                 }}
-                slidesPerView={3}
+                slidesPerView={windowWidth <= 800 ? 1: 3}
                 spaceBetween={30}
                 pagination={{
                     clickable: true
