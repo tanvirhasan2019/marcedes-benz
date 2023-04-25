@@ -19,7 +19,7 @@ export default function LifeStyle() {
         >
           <Grid item md={6} xs={12}>
             <Box sx={{ p: 2, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-              <img src={"https://c.bdac.co/bdac/MBUSA/Assets/b6054b6b-d45b-4ee4-9571-949302eb3ec4/14411_MBUSA_July_Banner_UPdates_Middle_x_2_1%20(1).jpg?v=637933463789171970"}
+              <img src={"https://drive.google.com/uc?export=view&id=1hyeARUEy9R2_4QW_5lBnphziF989AqUl"}
                 className="classic-caps-image"
                 alt="classic caps"
               />
@@ -34,7 +34,7 @@ export default function LifeStyle() {
 
           <Grid item md={6} xs={12}>
             <Box sx={{ p: 2, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-              <img src={"https://c.bdac.co/bdac/MBUSA/Assets/2cb1e98d-e096-4147-8d21-5c7bf6d9ac21/14411_MBUSA_July_Banner_UPdates_Middle_x_2_2%20(1).jpg?v=637933462848031050"}
+              <img src={"https://drive.google.com/uc?export=view&id=1Nhdtr73zKMjtzgarmd2-6NaKwiNuWtA7"}
                 className="classic-caps-image"
                 alt="classic caps"
               />
@@ -58,7 +58,7 @@ export default function LifeStyle() {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center center',
-        backgroundImage: 'url(https://c.bdac.co/bdac/MBUSA/Assets/346e1d90-ce86-4c60-9909-3675a3068f15/14411_MBUSA_July_Banner_UPdates__Static.jpg?v=637933464749643160)'
+        backgroundImage: 'url(https://drive.google.com/uc?export=view&id=1PVGnJa5TzHvVP3YrD6XXCr28WauFQ9ev)'
       }}>
         <p className='youth-text'>
           Check out Youth <br /> Apparel
@@ -80,7 +80,7 @@ export default function LifeStyle() {
         >
           <Grid item md={4} xs={12}>
             <Box sx={{ p: 2, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-              <img src={"https://c.bdac.co/bdac/MBUSA/Assets/5b17d69b-9b60-49f7-a557-54b6cf7e99b5/14411_MBUSA_July_Banner_UPdates_Bottom_x_3_2%20(1).jpg?v=637933479536431990"}
+              <img src={"https://drive.google.com/uc?export=view&id=1Tc9mPddVej0e86_bOc9Rw_055AfX6u3A"}
                 className="classic-caps-image"
                 alt="classic caps"
               />
@@ -95,7 +95,7 @@ export default function LifeStyle() {
 
           <Grid item md={4} xs={12}>
             <Box sx={{ p: 2, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-              <img src={"https://c.bdac.co/bdac/MBUSA/Assets/8dd6597c-924e-41a9-bb2c-7c6df0bbbe15/14411_MBUSA_July_Banner_UPdates_Bottom_x_3_1%20(1).jpg?v=637933474226931940"}
+              <img src={"https://drive.google.com/uc?export=view&id=1SZLWWurYjSPb_ipDgVK_PCVXlrJjXUC1"}
                 className="classic-caps-image"
                 alt="classic caps"
               />
@@ -110,7 +110,7 @@ export default function LifeStyle() {
 
           <Grid item md={4} xs={12}>
             <Box sx={{ p: 2, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-              <img src={"https://c.bdac.co/bdac/MBUSA/Assets/96f6a6b6-e897-4451-b4c5-53268b710d53/9235_Feb_Banner_Refresh_Lower_3.jpg?v=637867740543911510"}
+              <img src={"https://drive.google.com/uc?export=view&id=1LzUnJ7ocQctrOcTARxaxvR10zdfG4_P-"}
                 className="classic-caps-image"
                 alt="classic caps"
               />
