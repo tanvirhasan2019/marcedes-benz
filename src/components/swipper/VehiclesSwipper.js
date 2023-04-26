@@ -38,9 +38,11 @@ export default function VehiclesSwipper({ cars }) {
                 modules={[Autoplay, Pagination]}
                 className="mySwiper"
             > {cars?.map((item, index) =>
-                <SwiperSlide onClick={()=>navigate(`/marcedes/vehicles/${item?.id}`)} key={index} className="slider-box">
+                <SwiperSlide onClick={() => navigate(`/marcedes/vehicles/${item?.id}`)} key={index} className="slider-box">
                     <p className="swipper-title-text">{item.title}</p>
-                    <img className="swipper-image" src={item?.colors[0].image} alt={item?.title} />
+                    <div id="inplace-zoom-container">
+                        <img id="inplace-zoom-element" className="swipper-image" src={item?.colors[0].image} alt={item?.title} />
+                    </div>
                 </SwiperSlide>
             )}
             </Swiper>
