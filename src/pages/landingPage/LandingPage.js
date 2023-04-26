@@ -19,7 +19,6 @@ export default function LandingPage() {
     <div>
       <Hero />
       <Introduction />
-
       {/* Swipper for Suvs */}
       <Box sx={{ m: 2, p: 2 }} display={"flex"} flexDirection={"column"}>
         <Chip component={Paper} elevation={4} sx={{ width: '150px', textAlign: 'center', mt: 1, mb: 1, p: 2, fontSize: '1rem' }} label="Suvs" color="warning" />
