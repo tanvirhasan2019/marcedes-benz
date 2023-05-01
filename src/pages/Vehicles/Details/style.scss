@@ -1,27 +1,27 @@
 .desc-title{
   font-family: 'Great Vibes', cursive;
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .desc-subtitle {
   font-family: 'Great Vibes', cursive;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
+  font-weight: 700;
 }
 
 .desc-main-img{
     width: 100%;
     aspect-ratio: 16/9;
-    scale: 2;
+    scale: 1.5;
     margin-top: -40px;
+    transition: all .2s ease-in-out;
 }
-
-.desc-main-img {
-  width: 100%;
-  aspect-ratio: 16/9;
-  scale: 2;
-  margin-top: -30px;
+.desc-main-img:hover{
+  cursor: pointer;
+  scale: 2.0;
 }
 
 .desc-color-img {

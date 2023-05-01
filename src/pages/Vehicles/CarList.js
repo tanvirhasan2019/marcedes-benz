@@ -18,10 +18,12 @@ export default function CarList({ title, data}) {
         component={Paper}
       >
         {data?.map((item , index)=>
-          <Grid onClick={()=>navigate(`/marcedes/vehicles/${item?.id}`)} className="vehicle-card-list" key={index} item md={3} xs={12}>
-             <p className="vehicle-title-text">{item.title}</p>
-             <p className="vehicle-price-text">starting at : &nbsp;{item.price}$</p>
-             <img className='vehicle-card-image' src={item?.colors[0].image} alt={"title vehicle"} />
+          <Grid onClick={() => navigate(`/marcedes/vehicles/${item?.id}`)} className="vehicle-card-list" key={index} item md={3} xs={12}>
+            <p className="vehicle-title-text">{item.title}</p>
+            <p className="vehicle-price-text">starting at : &nbsp;{item.price}$</p>
+            <div id="inplace-zoom-container">
+              <img id="inplace-zoom-element" className='vehicle-card-image' src={item?.colors[0].image} alt={"title vehicle"} />
+            </div>
           </Grid>
         )}
       </Grid>
