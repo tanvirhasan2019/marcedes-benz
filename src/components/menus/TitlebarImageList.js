@@ -5,9 +5,10 @@ import ImageListItem from '@mui/material/ImageListItem'
 import ImageListItemBar from '@mui/material/ImageListItemBar'
 import IconButton from '@mui/material/IconButton'
 import InfoIcon from '@mui/icons-material/Info'
+import loaderImage from "../../images/loader/loader.gif"
 
 export default function TitlebarImageList({data,title}) {
-
+   const [imageLoader, setImageLoader] = React.useState(true)
   let navigate = useNavigate()
   
   const handleNavigatePage = (id)=>{
@@ -27,8 +28,9 @@ export default function TitlebarImageList({data,title}) {
       {data.map((item) => (
         <ImageListItem onClick={()=>handleNavigatePage(item?.id)} sx={{ "&:hover": { cursor: 'pointer' } }} key={item?.id}>
           <img
-            src={`${item?.mainImage}&w=248&fit=crop&auto=format`}
-            srcSet={`${item.mainImage}&w=248&fit=crop&auto=format&dpr=2 2x`}
+            src={imageLoader ? loaderImage : `${item?.mainImage}&w=248&fit=crop&auto=format`}
+            onLoad={()=>setImageLoader(false)}
+            srcSet={imageLoader ? loaderImage : `${item.mainImage}&w=248&fit=crop&auto=format&dpr=2 2x`}
             alt={item?.title}
             loading="lazy"
           />

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Typography } from '@mui/material'
 import Box from "@mui/material/Box"
 import Paper from "@mui/material/Paper"
@@ -7,8 +7,21 @@ import Stack from '@mui/material/Stack';
 import "./style.scss"
 import { FadeIn } from '../../components/animation/FadeIn';
 import TextAnimation from '../../components/animation/text/TextAnimation';
-
+import ImageLoader from "../../images/loader/loader.gif";
 export const Introduction = () => {
+  const [imageLoading, setImageLoading] = useState(true);
+  const logoUI = (src) => {
+    return <Box sx={{ width: '300px' }}>
+      <FadeIn>
+        <img
+          onLoad={() => setImageLoading(false)}
+          className="intro-image"
+          alt="intro logo"
+          src={imageLoading ? ImageLoader : src}
+        />
+      </FadeIn>
+    </Box>
+  }
   return (
     <div>
       <Box sx={{ mt: 4, p: 4, "& .MuiPaper-outlined": { color: 'black' } }} component={Paper} variant="outlined">
@@ -17,7 +30,7 @@ export const Introduction = () => {
           </TextAnimation>
           <TextAnimation text={'web site.'}>
           </TextAnimation>
-         
+
         </Typography>
 
         <Typography sx={{ mt: 2 }} gutterBottom align='center' variant='body1'>
@@ -48,38 +61,10 @@ export const Introduction = () => {
           </Button>
         </Stack>
       </Box>
-
       <Stack direction={{ xs: 'column', md: 'row', lg: 'row' }} spacing={4} alignItems={"center"} justifyContent={"center"} sx={{ mt: 2, p: 4 }}>
-
-        <Box sx={{ width: '300px' }}>
-          <FadeIn>
-            <img
-              className="intro-image"
-              alt="intro logo"
-              src={"https://drive.google.com/uc?export=view&id=133-2G_1W0uaUqKgRgqcooLbprvretME-"}
-            />
-          </FadeIn>
-        </Box>
-
-        <Box sx={{ width: '300px' }}>
-          <FadeIn>
-            <img
-              alt="intro logo"
-              className="intro-image"
-              src={"https://drive.google.com/uc?export=view&id=1ToY_kb70K1FJm6CwAnJITN9NfCiISN2b"}
-            />
-          </FadeIn>
-        </Box>
-
-        <Box sx={{ width: '300px' }}>
-          <FadeIn>
-            <img
-              alt="intro logo"
-              className="intro-image"
-              src={"https://drive.google.com/uc?export=view&id=1wqwUmf5u21tqQn0VzsGJOXtNGhLkNlaE"}
-            />
-          </FadeIn>
-        </Box>
+        {logoUI("https://drive.google.com/uc?export=view&id=133-2G_1W0uaUqKgRgqcooLbprvretME-")}
+        {logoUI("https://drive.google.com/uc?export=view&id=1ToY_kb70K1FJm6CwAnJITN9NfCiISN2b")}
+        {logoUI("https://drive.google.com/uc?export=view&id=1wqwUmf5u21tqQn0VzsGJOXtNGhLkNlaE")}
       </Stack>
     </div>
   )
