@@ -128,7 +128,7 @@ export default function Appheader() {
             component="div"
             sx={{ display: { xs: 'none', sm: 'block' } }}
           >
-            Marcedes-Benz
+            Mercedes-Benz
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
